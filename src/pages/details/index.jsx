@@ -10,7 +10,7 @@ export default function Details() {
     favoriteList,
     handleAddToFavorite,
   } = useContext(GlobalContext);
-  console.log(id);
+  
 
   useEffect(() => {
     async function getRecipeDetails() {
